@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/10.4/phpunit.xsd"
+         backupGlobals="false"
+         colors="true"
+         failOnRisky="true"
+         failOnWarning="true"
+>
+    <php>
+        <env name="MONGO_PORT" value="27022" force="true" />
+    </php>
+</phpunit>
